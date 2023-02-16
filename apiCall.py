@@ -2,7 +2,7 @@ import requests
 import json
 
 # Define the API endpoint URL
-url = "https://sm-kyc.scoreme.in/kyc/external/vehicledetails"
+post_url = "https://sm-kyc.scoreme.in/kyc/external/vehicledetails"
 
 # Define the secret key and client ID
 secret_key = "98eafea23ffa16fafbf31d9d2365c940"
@@ -20,14 +20,19 @@ headers = {
 }
 
 
-# Send a POST request to the API
-response = requests.post(url, json=payload, headers=headers)
+
+response = requests.post(post_url, json=payload, headers=headers)
+#extract refid from post response
 
 # Print the response content
 print(response.json())
-# url2="https://sm-kyc.scoreme.in/kyc/external/getkycrequestresponse?referenceId="
-# res= requests.get(url2, headers=headers)
+# refid=response.json()['referenceId']
+get_url="https://sm-kyc.scoreme.in/kyc/external/getkycrequestresponse?referenceId={refid}"
 
-# # Print the response content
-# print(res.json())
+res= requests.get(get_url, headers=headers)
+
+# Print the response content
+print(res.json())
+
+#extract make and model and pass to webscraping
 
