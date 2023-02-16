@@ -11,9 +11,12 @@ brand=input("Enter the car brand: ")
 model=input("Enter the car model: ")
 
 try:
-    driver = webdriver.Chrome()
+    driver = webdriver.Edge()
     driver.get(f"https://www.cars24.com/buy-used-car?f=make%3A%3D%3A{brand}%3Bmodel%3A%3D%3A{model}&sort=bestmatch&serveWarrantyCount=true&search={brand.upper()}%20{model.upper()}&storeCityId=2378&pinId=400001")
 
+    # options = webdriver.ChromeOptions()
+    # options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    # driver = webdriver.Chrome(options=options)
 
     driver.implicitly_wait(30)
     driver.refresh()
@@ -29,11 +32,12 @@ except StaleElementReferenceException:
 def carPrc(i):
     driver.implicitly_wait(100)
     xpath = f"/html/body/div[1]/div[2]/div[1]/div/div/div[2]/div[4]/div/div/a[{i}]/div[2]/div[2]/div[1]/div[2]/span"
+    # cls = '_2lmIw'
     prices = driver.find_element(By.XPATH,xpath)
     price = prices.text
 
     print(f"Price of car {i}: {price}")
-
+    driver.implicitly_wait(30)
 
 for i in range(1,num+1):
     driver.implicitly_wait(30)
@@ -46,7 +50,11 @@ for i in range(1,num+1):
     except NoSuchElementException:
         print(f"Element missing is {i}")
         driver.refresh()
-        carPrc(i)
+        carPrc(21)
+
+
+
+
 
 
 
