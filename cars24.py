@@ -34,10 +34,6 @@ def getC4():
         except NoSuchElementException:
             print(f"Element missing")
             driver.refresh()
-
-
-if __name__ == '__main__': 
-    getC4()
           
 
 
