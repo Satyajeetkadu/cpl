@@ -1,5 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import StaleElementReferenceException,NoSuchElementException
 
@@ -23,23 +26,26 @@ def carPrc():
     for i in prices:
         print(i.text)
 
-
-def getC4():
-        try:
-          carPrc()
-        except StaleElementReferenceException:
-            print(f"Search result is stale and could not be located")
-            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            carPrc()       
-        except NoSuchElementException:
-            print(f"Element missing")
-            driver.refresh()
-
-
-if __name__ == '__main__': 
-    getC4()
-          
-
-
-
+try:
+    carPrc()
+except StaleElementReferenceException:
+    print(f"Search result is stale and could not be located")
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    carPrc()
+        
+except NoSuchElementException:
+    print(f"Element missing")
+    driver.refresh()
     # carPrc(21)
+
+
+
+
+
+
+
+
+    
+# for a in range(10):
+#     prices = driver.find_elements(By.XPATH, f"/html/body/div[1]/div[2]/div[1]/div/div/div[2]/div[4]/div/div/a[1]/div[2]/div[2]/div[1]/div[2]/span")
+#     print(prices[0].text)
