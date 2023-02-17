@@ -15,7 +15,7 @@ p=[]
 
 def prices(a):
     x=f"/html/body/div[12]/form/section[2]/div[1]/div[4]/div[3]/div[3]/div[2]/div[2]/div[1]/ul/li[{a}]/div/div[2]/div[1]/div[1]/a/table/tbody/tr[3]/td/div/a[1]/span"
-    prices=driver.find_elements(By.XPATH, x)
+    prices=driver.find_elements(By.CLASS_NAME, 'kuch toh dalo')
     driver.implicitly_wait(100)
     price=prices[0].text
     print(price)

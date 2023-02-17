@@ -1,6 +1,7 @@
 import requests
 import json
 import cars24
+from cars24 import *
 
 # Define the API endpoint URL
 post_url = "https://sm-kyc.scoreme.in/kyc/external/vehicledetails"
@@ -29,17 +30,22 @@ response = requests.post(post_url, json=payload, headers=headers)
 print(response.json())
 refid=response.json()['data']['referenceId']
 print(refid)
+
 get_url=f"https://sm-kyc.scoreme.in/kyc/external/getkycrequestresponse?referenceId={refid}"
 
 res= requests.get(get_url, headers=headers)
+print(res.json())
 
 # # Print the response content
-print(res.json()['data']['kycRcVehicleData']['manufacturedDate'])
-print(res.json()['data']['kycRcVehicleData']['makerModel'])
-print(res.json()['data']['kycRcVehicleData']['makerDescription'])
-print(res.json()['data']['kycRcVehicleData']['fuelType'])
-print(res.json()['data']['kycRcVehicleData']['categoryDescription'])
+mfd = res.json()['data']['kycRcVehicleData']['manufacturedDate']
+mm = res.json()['data']['kycRcVehicleData']['makerModel']
+md = res.json()['data']['kycRcVehicleData']['makerDescription']
+ft = res.json()['data']['kycRcVehicleData']['fuelType']
+cd = res.json()['data']['kycRcVehicleData']['categoryDescription']
 
+print(f'mfd:{mfd}, mm:{mm}, md:{md}, md:{ft}, ft:{cd}')
+
+# getC4()
 
 #extract make and model and pass to webscraping
 

@@ -261,3 +261,506 @@ DevTools listening on ws://127.0.0.1:56635/devtools/browser/ed6890af-e5a9-4cd4-8
 JavaScript error: , line 0: uncaught exception: Object
 JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550002699	geckodriver	INFO	Listening on 127.0.0.1:58577
+1676550005759	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58578" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileuYcm81"
+1676550172964	geckodriver	INFO	Listening on 127.0.0.1:58816
+1676550175995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58817" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileJSnQQ5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550176318	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550176323	Marionette	INFO	Listening on port 58828
+Read port: 58828
+WebDriver BiDi listening on ws://127.0.0.1:58817
+1676550176498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileJSnQQ5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58817/devtools/browser/3623065b-ba5b-47e3-a8dd-f987c52f43b5
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550197664	geckodriver	INFO	Listening on 127.0.0.1:58960
+1676550200730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58961" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile3fHrKn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550201027	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550201032	Marionette	INFO	Listening on port 58969
+Read port: 58969
+WebDriver BiDi listening on ws://127.0.0.1:58961
+1676550201261	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile3fHrKn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58961/devtools/browser/f9b116db-c47c-4b02-8bd7-aff2a30db86e
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550220222	geckodriver	INFO	Listening on 127.0.0.1:59090
+1676550223266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59091" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilenMPEDi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550223558	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550223562	Marionette	INFO	Listening on port 59099
+Read port: 59099
+WebDriver BiDi listening on ws://127.0.0.1:59091
+1676550223727	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilenMPEDi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59091/devtools/browser/e05337e1-c5c3-4340-96be-7a4cb6b8fc53
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550268188	geckodriver	INFO	Listening on 127.0.0.1:59273
+1676550271255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59274" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileV7dfpH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550271552	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550271556	Marionette	INFO	Listening on port 59282
+Read port: 59282
+WebDriver BiDi listening on ws://127.0.0.1:59274
+1676550271718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileV7dfpH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59274/devtools/browser/0ea380dd-dd97-45b1-b5d2-6e5aef11b837
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550298316	geckodriver	INFO	Listening on 127.0.0.1:59407
+1676550301342	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59408" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileYShuoL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550301628	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550301632	Marionette	INFO	Listening on port 59416
+Read port: 59416
+WebDriver BiDi listening on ws://127.0.0.1:59408
+1676550301790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileYShuoL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59408/devtools/browser/3adea2a2-6843-4207-bd1d-daaa6d9f05c8
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550324035	geckodriver	INFO	Listening on 127.0.0.1:59543
+1676550327076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59544" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileiUIRFR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550327370	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550327374	Marionette	INFO	Listening on port 59583
+Read port: 59583
+WebDriver BiDi listening on ws://127.0.0.1:59544
+1676550327546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileiUIRFR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59544/devtools/browser/a006385d-a703-40f5-bfa4-8f1bbaf3207c
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550355122	geckodriver	INFO	Listening on 127.0.0.1:59728
+1676550358184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59729" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileiTs7vu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550358489	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550358494	Marionette	INFO	Listening on port 59737
+Read port: 59737
+WebDriver BiDi listening on ws://127.0.0.1:59729
+1676550358660	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileiTs7vu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59729/devtools/browser/cd8fcfc6-a70b-4b2f-8815-c0a613421e1d
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550402561	geckodriver	INFO	Listening on 127.0.0.1:59878
+1676550405587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59879" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilenTaaTh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550405913	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550405918	Marionette	INFO	Listening on port 59887
+Read port: 59887
+WebDriver BiDi listening on ws://127.0.0.1:59879
+1676550406077	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilenTaaTh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59879/devtools/browser/c1037378-6c89-46ad-bd74-b7498633684f
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550538059	geckodriver	INFO	Listening on 127.0.0.1:60082
+1676550541088	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilefaLpGT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550541398	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550541403	Marionette	INFO	Listening on port 60091
+Read port: 60091
+WebDriver BiDi listening on ws://127.0.0.1:60083
+1676550541565	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilefaLpGT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60083/devtools/browser/e6b98b20-5e6d-48b2-bae4-982b41ccc0d6
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550635276	geckodriver	INFO	Listening on 127.0.0.1:60283
+1676550638299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60284" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile6c3Hsr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550638595	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550638599	Marionette	INFO	Listening on port 60323
+Read port: 60323
+WebDriver BiDi listening on ws://127.0.0.1:60284
+1676550638768	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile6c3Hsr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60284/devtools/browser/2afcef05-90ca-4728-b096-236057327f45
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550775717	geckodriver	INFO	Listening on 127.0.0.1:60514
+1676550778743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60515" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileQh0m3U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550779052	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550779057	Marionette	INFO	Listening on port 60525
+Read port: 60525
+WebDriver BiDi listening on ws://127.0.0.1:60515
+1676550779225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileQh0m3U\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60515/devtools/browser/a2026548-6661-4aac-954b-d63829154b64
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550898999	geckodriver	INFO	Listening on 127.0.0.1:60729
+1676550902027	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60730" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileQqKgDH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550902328	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550902333	Marionette	INFO	Listening on port 60738
+Read port: 60738
+WebDriver BiDi listening on ws://127.0.0.1:60730
+1676550902500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileQqKgDH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60730/devtools/browser/738e78fb-e7c1-4216-899c-e32024736035
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676550938909	geckodriver	INFO	Listening on 127.0.0.1:60883
+1676550941936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60884" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilecrfkaF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676550942252	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676550942257	Marionette	INFO	Listening on port 60923
+Read port: 60923
+WebDriver BiDi listening on ws://127.0.0.1:60884
+1676550942433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilecrfkaF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60884/devtools/browser/f4ecfca4-5474-4fee-9cbd-1d5af097cfc1
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676551060251	geckodriver	INFO	Listening on 127.0.0.1:61101
+1676551063284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61102" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileBhbjv5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676551063583	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676551063588	Marionette	INFO	Listening on port 61112
+Read port: 61112
+WebDriver BiDi listening on ws://127.0.0.1:61102
+1676551063755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileBhbjv5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61102/devtools/browser/1ea39c0f-5cbf-4431-9471-58d67366d6cd
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676551189161	geckodriver	INFO	Listening on 127.0.0.1:61383
+1676551192202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61384" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileIKwHli"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676551192521	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676551192527	Marionette	INFO	Listening on port 61392
+Read port: 61392
+WebDriver BiDi listening on ws://127.0.0.1:61384
+1676551192694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileIKwHli\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61384/devtools/browser/fe0e7761-810b-4143-84fa-b76597e6e468
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676551300808	geckodriver	INFO	Listening on 127.0.0.1:61571
+1676551303850	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61572" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile74m6VT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676551304150	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676551304155	Marionette	INFO	Listening on port 61610
+Read port: 61610
+WebDriver BiDi listening on ws://127.0.0.1:61572
+1676551304322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile74m6VT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61572/devtools/browser/90a92881-0f81-4e43-a6b2-fbe7ad86e4ca
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676551520150	geckodriver	INFO	Listening on 127.0.0.1:61850
+1676551523133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61851" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilefThPRh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676551523604	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676551523612	Marionette	INFO	Listening on port 61867
+Read port: 61867
+WebDriver BiDi listening on ws://127.0.0.1:61851
+1676551523836	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilefThPRh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61851/devtools/browser/b99e4a58-b61c-4fb3-8bd4-772f4f22b2c1
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676551669346	geckodriver	INFO	Listening on 127.0.0.1:62159
+1676551672394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62160" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileXXF0Nw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676551672788	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676551672794	Marionette	INFO	Listening on port 62198
+Read port: 62198
+WebDriver BiDi listening on ws://127.0.0.1:62160
+1676551672996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileXXF0Nw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62160/devtools/browser/bacc18e8-049a-42da-b1ac-a409505180f7
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676551761136	geckodriver	INFO	Listening on 127.0.0.1:62385
+1676551764168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62386" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileQ99du0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676551764506	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676551764510	Marionette	INFO	Listening on port 62395
+Read port: 62395
+WebDriver BiDi listening on ws://127.0.0.1:62386
+1676551764722	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileQ99du0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62386/devtools/browser/dee77ea4-aad3-4f87-ba31-1607ffbe09b9
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676551923991	geckodriver	INFO	Listening on 127.0.0.1:62611
+1676551927032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62612" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileNMi0tK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676551927364	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676551927369	Marionette	INFO	Listening on port 62622
+Read port: 62622
+WebDriver BiDi listening on ws://127.0.0.1:62612
+1676551927565	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileNMi0tK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62612/devtools/browser/61462802-4eb0-4d4b-af01-9243b452b488
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676551992601	geckodriver	INFO	Listening on 127.0.0.1:62774
+1676551995643	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62775" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileur00Xq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676551995942	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676551995947	Marionette	INFO	Listening on port 62814
+Read port: 62814
+WebDriver BiDi listening on ws://127.0.0.1:62775
+1676551996113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileur00Xq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62775/devtools/browser/6db4b313-d3a2-404d-8aaa-0db3e883a814
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676552052086	geckodriver	INFO	Listening on 127.0.0.1:62966
+1676552055135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile3lGAf0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676552055439	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676552055446	Marionette	INFO	Listening on port 62976
+Read port: 62976
+WebDriver BiDi listening on ws://127.0.0.1:62967
+1676552055606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile3lGAf0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62967/devtools/browser/c59ad6aa-5e42-403b-b5c5-c2ffbe2a840e
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676552340691	geckodriver	INFO	Listening on 127.0.0.1:63265
+1676552343723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63266" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileNAwshv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676552344044	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676552344050	Marionette	INFO	Listening on port 63310
+Read port: 63310
+WebDriver BiDi listening on ws://127.0.0.1:63266
+1676552344219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileNAwshv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63266/devtools/browser/dcc0fa5c-101d-4dd5-9e80-38707bb47fee
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676552415793	geckodriver	INFO	Listening on 127.0.0.1:63480
+1676552418826	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63481" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileOwn4a0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676552419148	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676552419154	Marionette	INFO	Listening on port 63489
+Read port: 63489
+WebDriver BiDi listening on ws://127.0.0.1:63481
+1676552419329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileOwn4a0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63481/devtools/browser/79487b35-e55b-4788-a218-d6465af505f3
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+1676553977614	geckodriver	INFO	Listening on 127.0.0.1:64720
+1676553980660	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64721" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileBIxUjS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676553981009	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676553981014	Marionette	INFO	Listening on port 64760
+Read port: 64760
+WebDriver BiDi listening on ws://127.0.0.1:64721
+1676553981175	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileBIxUjS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64721/devtools/browser/04cca386-c417-4306-a43b-d3a54e357e4f
+1676614606088	geckodriver	INFO	Listening on 127.0.0.1:52214
+1676614609126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52215" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilewQAAeA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676614609801	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676614609808	Marionette	INFO	Listening on port 52246
+Read port: 52246
+WebDriver BiDi listening on ws://127.0.0.1:52215
+1676614610019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilewQAAeA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52215/devtools/browser/631d0de8-5fd3-4acf-811e-6d6514d5aaf7
+1676614634749	Marionette	INFO	Stopped listening on port 52246
+Dynamically enable window occlusion 1
+[Parent 16476, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1676614919904	geckodriver	INFO	Listening on 127.0.0.1:52644
+1676614922945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52645" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilekB311Z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676614923519	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676614923526	Marionette	INFO	Listening on port 52671
+Read port: 52671
+WebDriver BiDi listening on ws://127.0.0.1:52645
+1676614923685	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilekB311Z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52645/devtools/browser/3a1dd674-da7c-4ff0-ab80-7f005bbb3a9b
+1676615027408	geckodriver	INFO	Listening on 127.0.0.1:53507
+1676615030440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53508" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilecyjc2g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1676615030697	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676615030701	Marionette	INFO	Listening on port 53521
+Read port: 53521
+WebDriver BiDi listening on ws://127.0.0.1:53508
+1676615030821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilecyjc2g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53508/devtools/browser/503afc65-74d3-4e3d-96e8-5ef7564b1b86
