@@ -13,8 +13,5 @@ def get_call(refid):
     print(response.json())
     
     # # Print the response content
-    print(f"\nCar Details:\nManufactured Date - {response.json()['data']['kycRcVehicleData']['manufacturedDate']}")
-    print(f"Maker - {response.json()['data']['kycRcVehicleData']['makerModel']}")
-    print(f"Model - {response.json()['data']['kycRcVehicleData']['makerDescription']}")
-    print(f"Fuel Type - {response.json()['data']['kycRcVehicleData']['fuelType']}")
-    print(f"Type of Vehicle - {response.json()['data']['kycRcVehicleData']['categoryDescription']}")
+    # return [response.json()['data']['kycRcVehicleData']['manufacturedDate'], response.json()['data']['kycRcVehicleData']['makerModel'], response.json()['data']['kycRcVehicleData']['makerDescription'], response.json()['data']['kycRcVehicleData']['fuelType'], response.json()['data']['kycRcVehicleData']['categoryDescription']]
+    

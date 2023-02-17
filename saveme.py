@@ -4,14 +4,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import StaleElementReferenceException,NoSuchElementException
 import time
 
-
-
-
 p = []
 n = []
 num = 0
 driver = webdriver.Firefox()
-
 
 
 def carPrc():

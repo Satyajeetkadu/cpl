@@ -3,15 +3,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import StaleElementReferenceException,NoSuchElementException
 import time
-
-
-
+from apiCall import *
 
 p = []
 n = []
 num = 0
 driver = webdriver.Firefox()
-
 
 
 def carPrc():
@@ -48,7 +45,8 @@ def getC4(brand, model):
     except NoSuchElementException:
             print(f"Element missing")
             driver.refresh()
-          
 
 
-    # carPrc(21)
+c4 = getReg()
+
+print(c4)
