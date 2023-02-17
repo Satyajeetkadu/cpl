@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+1676545824517	geckodriver	INFO	Listening on 127.0.0.1:52331
+=======
 1676540254198	geckodriver	INFO	Listening on 127.0.0.1:49163
 1676540257296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49164" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile49plH2"
 1676540258182	Marionette	INFO	Marionette enabled
@@ -261,6 +264,7 @@ DevTools listening on ws://127.0.0.1:56635/devtools/browser/ed6890af-e5a9-4cd4-8
 JavaScript error: , line 0: uncaught exception: Object
 JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-004174-001, line 1: WebGL context was lost.
+<<<<<<< HEAD
 1676550002699	geckodriver	INFO	Listening on 127.0.0.1:58577
 1676550005759	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58578" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileuYcm81"
 1676550172964	geckodriver	INFO	Listening on 127.0.0.1:58816
@@ -852,3 +856,7 @@ WebDriver BiDi listening on ws://127.0.0.1:62561
 1676632179430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileU4AKGL\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:62561/devtools/browser/e845a0e6-25d6-40c5-9d78-2ecd5ba002fc
+=======
+>>>>>>> fad0fe65e8e21d8c57cb1108d4f268217bc8f5d8
+1676548199868	geckodriver	INFO	Listening on 127.0.0.1:53738
+>>>>>>> bfc8d1f183892c18ba8cce2d5e46d972e76ed484
