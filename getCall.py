@@ -11,7 +11,5 @@ def get_call(refid):
 
     response=requests.get(url, headers=headers)
     print(response.json())
-    
-    # # Print the response content
-    # return [response.json()['data']['kycRcVehicleData']['manufacturedDate'], response.json()['data']['kycRcVehicleData']['makerModel'], response.json()['data']['kycRcVehicleData']['makerDescription'], response.json()['data']['kycRcVehicleData']['fuelType'], response.json()['data']['kycRcVehicleData']['categoryDescription']]
-    
+    returnRes=[response.json()['data']['kycRcVehicleData']['manufacturedDate'], response.json()['data']['kycRcVehicleData']['makerModel'], response.json()['data']['kycRcVehicleData']['makerDescription'], response.json()['data']['kycRcVehicleData']['fuelType'], response.json()['data']['kycRcVehicleData']['categoryDescription']]
+    return returnRes
