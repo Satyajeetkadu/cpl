@@ -30,9 +30,11 @@ def getReg(vno):
     refid=response.json()['data']['referenceId']
     print(f"Reference id - {refid}")
     details=get_call(refid)
+
     return details
+
     # print(f'mfd:{mfd}, mm:{mm}, md:{md}, md:{ft}, ft:{cd}')
 
     # getC4()
 
-
+# getReg('MH02FN4021')
