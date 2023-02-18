@@ -32,9 +32,3 @@ def getReg(vno):
     details=get_call(refid)
 
     return details
-
-    # print(f'mfd:{mfd}, mm:{mm}, md:{md}, md:{ft}, ft:{cd}')
-
-    # getC4()
-
-getReg('MH02FN4021')

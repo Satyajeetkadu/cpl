@@ -45,7 +45,7 @@ def getCarM(Cmodel):
     # return driver.current_url
 
 
-def carPrc():
+def carPrc(m,fueltype):
 
     ccsSL_price = '_18ToE span'
     ccsSL_name = '_2lmIw'
@@ -84,13 +84,37 @@ def carPrc():
     for x in range(2,len(extrastuff),4):
         fuel_type.append(extrastuff[x])
         print(f'{x} for {extrastuff[x]}')
-
+    fcarP=[]
+    fuelCar=[]
     print(fuel_type)
+    
+    for i in range(len(n)):
+        print(f"Checking {m.upper()} in {n[i].upper()}\n")
+        words1 = set(m.upper().split())
+        words2 = set(n[i].upper().split())
+
+        # Count the number of words that are present in both sets
+        num_matches = len(words1.intersection(words2))
+
+        # Return True if three or more words are the same between the two strings
+        if num_matches >= 3 and fuel_type[i].upper() == fueltype.upper():
+            print(f"IN THIS LOOP\n{n[i].upper()}=={m.upper()}")
+            fcarP.append(p[i])
+            fuelCar.append(fuel_type[i])
+            print(True)
+        else:
+            print(False)
 
 
-def getC4(vno):
+    return fcarP,fuelCar
+     
+            
 
-    cardata = getReg(vno)
+             
+
+def getC4(model,fueltype):
+
+    # cardata = getReg(vno)
 
     print("in C4")
     try:
@@ -106,7 +130,20 @@ def getC4(vno):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(10)
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        carPrc()
+        price,fuel=carPrc(model,fueltype)
+
+        print(f"Results={price}-{fuel}")
+        sumP=[]
+        for a in price:
+            a=a.replace('₹','')
+            a=a.replace(',','')
+            a=int(a)
+            sumP.append(a)
+
+        avg=sum(sumP)/len(price)
+
+        print(f"Average value of your {model} is Rs.{avg}")
+        return price,fuel
     except StaleElementReferenceException:
             print(f"Search result is stale and could not be located")
     except NoSuchElementException:
@@ -116,9 +153,10 @@ def getC4(vno):
 
 # c4 = getReg()
 
-vno = input("Vehicle No.: ")
+# vno = input("Vehicle No.: ")
 
-getC4(vno)
+# getC4(vno)
 
-# getCarM()
+# # getCarM()
 
+getC4("2014 Honda Brio","PETROL")
