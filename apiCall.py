@@ -37,4 +37,4 @@ def getReg(vno):
 
     # getC4()
 
-# getReg('MH02FN4021')
+getReg('MH02FN4021')

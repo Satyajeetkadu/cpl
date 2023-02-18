@@ -38,7 +38,7 @@ def getCarM(Cmodel):
         input_element.send_keys(Keys.RETURN)
 
     except Exception as e:
-            print(f"eror shit {e}")
+        print(f"eror shit {e}")
 
     return driver.current_url
 
@@ -100,7 +100,7 @@ def getC4(vno):
         time.sleep(10)
         print(dr)
 
-        
+
 
         time.sleep(10)
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
