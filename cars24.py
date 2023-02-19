@@ -5,7 +5,6 @@ from selenium.common.exceptions import StaleElementReferenceException,NoSuchElem
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 import time
-from apiCall import *
 import re
 
 p = []
@@ -76,14 +75,18 @@ def carPrc(m,fueltype):
     print(extrastuff)
 
     km=[]
-    fuel_type=[]
     for a in range(len(extrastuff)):
         if a%4==0:
-            km.append(extrastuff[a])  
+            km.append(extrastuff[a])
 
+
+    fuel_type=[]
     for x in range(2,len(extrastuff),4):
         fuel_type.append(extrastuff[x])
         print(f'{x} for {extrastuff[x]}')
+
+
+#dont get this also please explain
     fcarP=[]
     fuelCar=[]
     print(fuel_type)
@@ -126,9 +129,9 @@ def getC4(model,fueltype):
 
 
 
-        time.sleep(10)
+        time.sleep(5)
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(10)
+        time.sleep(5)
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         price,fuel=carPrc(model,fueltype)
 
@@ -159,4 +162,4 @@ def getC4(model,fueltype):
 
 # # getCarM()
 
-getC4("2014 Honda Brio","PETROL")
+# getC4("2014 Honda Brio","PETROL")
