@@ -11,7 +11,8 @@ import re
 p = []
 n = []
 num = 0
-driver = webdriver.Firefox()
+driver=webdriver.Chrome()
+# driver = webdriver.Firefox()
 
 #gets the car searched using the inputbox
 def getCarM(Cmodel):
@@ -90,14 +91,15 @@ def carPrc(m,fueltype):
     
     for i in range(len(n)):
         print(f"Checking {m.upper()} in {n[i].upper()}\n")
-        words1 = set(m.upper().split())
-        words2 = set(n[i].upper().split())
+        words1 = set(re.findall(r'\b\w+\b', m.upper()))
+        words2 = set(re.findall(r'\b\w+\b', n[i].upper()))
 
         # Count the number of words that are present in both sets
         num_matches = len(words1.intersection(words2))
 
+
         # Return True if three or more words are the same between the two strings
-        if num_matches >= 3 and fuel_type[i].upper() == fueltype.upper():
+        if num_matches >= 4 and fuel_type[i].upper() == fueltype.upper():
             print(f"IN THIS LOOP\n{n[i].upper()}=={m.upper()}")
             fcarP.append(p[i])
             fuelCar.append(fuel_type[i])
@@ -133,16 +135,6 @@ def getC4(model,fueltype):
         price,fuel=carPrc(model,fueltype)
 
         print(f"Results={price}-{fuel}")
-        sumP=[]
-        for a in price:
-            a=a.replace('₹','')
-            a=a.replace(',','')
-            a=int(a)
-            sumP.append(a)
-
-        avg=sum(sumP)/len(price)
-
-        print(f"Average value of your {model} is Rs.{avg}")
         return price,fuel
     except StaleElementReferenceException:
             print(f"Search result is stale and could not be located")
@@ -159,4 +151,4 @@ def getC4(model,fueltype):
 
 # # getCarM()
 
-getC4("2014 Honda Brio","PETROL")
+# getC4("2014 Honda Brio","PETROL")

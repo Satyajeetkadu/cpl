@@ -7,8 +7,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 import time
 from apiCall import *
 
-driver = webdriver.Firefox()
-
+# driver = webdriver.Firefox()
+driver=webdriver.Chrome()
 #gets the car searched using the inputbox
 def getCarM(huh):
 
@@ -155,20 +155,8 @@ def getC4_test(model,fueltype, kms, yr):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         p = carPrc(model)
 
-        # print(f"Results={price}-{fuel}")
-        avg = 0
-        sumP=[]
-
-        for a in p:
-            a=a.replace('₹','')
-            a=a.replace(',','')
-            a=int(a)
-            print(a)
-            sumP.append(a)
-        avg=sum(sumP)/len(p)
-
-        print(f"Average value of your {model} is Rs.{avg}")
-        return avg
+        print(f"Results={p}")
+        return p
 
 
     except StaleElementReferenceException:
