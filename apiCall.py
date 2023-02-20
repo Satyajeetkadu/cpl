@@ -30,23 +30,8 @@ response = requests.post(post_url, json=payload, headers=headers)
 # Print the response content
 print(response.json())
 refid=response.json()['data']['referenceId']
-<<<<<<< HEAD
-print(refid)
-get_url=f"https://sm-kyc.scoreme.in/kyc/external/getkycrequestresponse?referenceId={refid}"
-
-res= requests.get(get_url, headers=headers)
-
-# # Print the response content\
-print(res.json())
-print(res.json()['data']['kycRcVehicleData']['manufacturedDate'])
-print(res.json()['data']['kycRcVehicleData']['makerModel'])
-print(res.json()['data']['kycRcVehicleData']['makerDescription'])
-print(res.json()['data']['kycRcVehicleData']['fuelType'])
-print(res.json()['data']['kycRcVehicleData']['categoryDescription'])
-=======
 print(f"Reference id - {refid}")
 get_call(refid)
->>>>>>> 76b0180d28ce3003ea257f1db7353557eb446296
 
 
 
