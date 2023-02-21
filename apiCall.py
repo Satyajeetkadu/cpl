@@ -1,10 +1,6 @@
 import requests
 import json
-<<<<<<< HEAD
-# import cars24
-=======
 from getCall import get_call
->>>>>>> 76b0180d28ce3003ea257f1db7353557eb446296
 
 # Define the API endpoint URL
 post_url = "https://sm-kyc-sandbox.scoreme.in/kyc/external/vehicledetails"
