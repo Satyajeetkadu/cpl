@@ -1,47 +1,78 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 
 # set up the webdriver
 driver = webdriver.Chrome()
 driver.get("https://orangebookvalue.com/")
 
+
+def optionsDrop(optionT):
+    
+    makelist= []
+    for option in optionT:
+        makelist.append(option.text)
+    return makelist
 # find the search boxes
-category_box = driver.find_elements(By.XPATH,"/html/body/div/div/div[2]/div[3]/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[1]/div/form/div[1]/div[1]/div[1]/div")
-make_box = driver.find_element(By.XPATH,"/html/body/div/div/div[2]/div[3]/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[1]/div/form/div[1]/div[1]/div[2]/div/select")
-model_box = driver.find_element(By.XPATH,"/html/body/div/div/div[2]/div[3]/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[1]/div/form/div[1]/div[1]/div[2]/div/select")
-year_box = driver.find_element(By.XPATH,"/html/body/div/div/div[2]/div[3]/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[1]/div/form/div[1]/div[2]/div[2]/div/select")
-trim_box = driver.find_element(By.XPATH,"/html/body/div/div/div[2]/div[3]/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[1]/div/form/div[1]/div[3]/div[1]/div/select")
+category_box = driver.find_element(By.NAME,"category")
+# options = category_box.find_elements(By.TAG_NAME,"option")
 
-# select options from the search boxes
-category = Select(category_box)
-category.select_by_visible_text("Cars")
+# for option in options:
+#     print(option.text)
 
-make = Select(make_box)
-make.select_by_visible_text("Maruti Suzuki")
+select_category = Select(category_box)
+select_category.select_by_visible_text('Car')
 
-model = Select(model_box)
-model.select_by_visible_text("Alto 800")
+make_box = driver.find_element(By.NAME,"make")
+options_make = make_box.find_elements(By.TAG_NAME,"option")
+makelist=optionsDrop(options_make)
+makelist=makelist[11:]
 
-year = Select(year_box)
-year.select_by_visible_text("2018")
+select_make = Select(make_box)
+select_make.select_by_visible_text("Maruti Suzuki")
 
-trim = Select(trim_box)
-trim.select_by_visible_text("LXI")
 
-# enter the kilometers driven
-kms_box = driver.find_element(By.CSS_SELECTOR,".form[role=obv] .form-group input[type=number], .form[role=obv] input[type=number]")
-kms_box.send_keys("5000")
+model=driver.find_element(By.NAME,"model")
+select_model=Select(model)
+options_model=model.find_elements(By.TAG_NAME,'option')
+modlist=optionsDrop(options_model)
+print(modlist)
+select_model.select_by_visible_text('Swift Dzire')
 
-# click the submit button
-submit_button = driver.find_element(By.CSS_SELECTOR,".form[role=obv] .btn-primary")
-submit_button.click()
+year=driver.find_element(By.NAME,'year')
+driver.implicitly_wait(50)
 
-# extract the result
-result_box = driver.find_element(By.CSS_SELECTOR,"/html/body/div[1]/div[2]/div[4]/div/div/div/div/div[2]/div[2]/div[2]/span")
-result = result_box.text
+select_year=Select(year)
+select_year.select_by_visible_text('2016')
 
-print(result)
+trim=driver.find_element(By.NAME,"trim")
+select_trim=Select(trim)
+options_trim=trim.find_elements(By.TAG_NAME,'option')
+tlist=optionsDrop(options_trim)
+select_trim.select_by_visible_text('Zxi')
+print(tlist)
 
-# close the webdriver
-driver.close()
+kms=driver.find_element(By.NAME,'kms_driven')
+kms.send_keys('50000')
+
+check_price=driver.find_element(By.ID,'check_price_used')
+check_price.click()
+
+wait =WebDriverWait(driver,10)
+
+select_excellent=driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div[4]/div/div/div/div/div[2]/div[2]/div[3]/div/ul/li[5]')
+select_excellent.click()
+
+wait =WebDriverWait(driver,5)
+
+price=driver.find_element(By.CSS_SELECTOR,'.obv[role="result"] .price')
+
+print(price.text)
+
+# select_model.select_by_visible_text('Swift Dzire')
+
+
+# driver.close()
