@@ -9,6 +9,16 @@ from selenium.webdriver.support import expected_conditions as EC
 driver = webdriver.Chrome()
 driver.get("https://orangebookvalue.com/")
 
+city=driver.find_element(By.XPATH,'//a[@href="#locationModal" and @type="button" and @class="nav-link" and @data-toggle="modal" and @data-target="#locationModal"]')
+city.click()
+
+wait=WebDriverWait(driver,2)
+
+select_city=wait.until(EC.presence_of_element_located((By.NAME,'city')))
+
+select_select_city=Select(select_city)
+select_select_city.select_by_visible_text("Mumbai")
+
 
 def optionsDrop(optionT):
     
