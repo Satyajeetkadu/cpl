@@ -601,3 +601,1376 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677138033757	geckodriver	INFO	Listening on 127.0.0.1:52499
+1677138036819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52500" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileAZWPrz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677138037476	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677138037483	Marionette	INFO	Listening on port 52525
+Read port: 52525
+WebDriver BiDi listening on ws://127.0.0.1:52500
+1677138037676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileAZWPrz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52500/devtools/browser/b7b8b128-b846-418c-bd1d-8bd9491d6d19
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677138053235	Marionette	INFO	Stopped listening on port 52525
+Dynamically enable window occlusion 1
+1677138066796	geckodriver	INFO	Listening on 127.0.0.1:52646
+1677138069836	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52647" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileS9S9PW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677138070460	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677138070471	Marionette	INFO	Listening on port 52655
+Read port: 52655
+WebDriver BiDi listening on ws://127.0.0.1:52647
+1677138070784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileS9S9PW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52647/devtools/browser/1a1775d9-ef36-4f37-9f14-bc6facada1b7
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677138078047	Marionette	INFO	Stopped listening on port 52655
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1677138386333	geckodriver	INFO	Listening on 127.0.0.1:52949
+1677138389390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52950" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileeiqdKE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677138390081	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677138390092	Marionette	INFO	Listening on port 52979
+Read port: 52979
+WebDriver BiDi listening on ws://127.0.0.1:52950
+1677138390464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileeiqdKE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52950/devtools/browser/b2ccd2ee-9855-4cc8-b311-e1944f041ec9
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677138420316	geckodriver	INFO	Listening on 127.0.0.1:53104
+1677138423390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53105" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileaExTKh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677138424033	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677138424044	Marionette	INFO	Listening on port 53116
+Read port: 53116
+WebDriver BiDi listening on ws://127.0.0.1:53105
+1677138424320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileaExTKh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53105/devtools/browser/98f94a18-5a49-4403-8e63-78f3034ca4af
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677138476963	geckodriver	INFO	Listening on 127.0.0.1:53231
+1677138480017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53232" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileG22KGV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677138480572	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677138480581	Marionette	INFO	Listening on port 53242
+Read port: 53242
+WebDriver BiDi listening on ws://127.0.0.1:53232
+1677138480897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileG22KGV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53232/devtools/browser/5332edda-39a7-4be3-946f-abae1f872da0
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677138560286	geckodriver	INFO	Listening on 127.0.0.1:53363
+1677138563338	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53364" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilemW5MlH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677138563959	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677138563970	Marionette	INFO	Listening on port 53372
+Read port: 53372
+WebDriver BiDi listening on ws://127.0.0.1:53364
+1677138564324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilemW5MlH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53364/devtools/browser/68985880-3ad3-464d-ab4a-823824cd0870
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677138595608	geckodriver	INFO	Listening on 127.0.0.1:53501
+1677138598675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53502" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile4mUQc1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677138599244	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677138599253	Marionette	INFO	Listening on port 53510
+Read port: 53510
+WebDriver BiDi listening on ws://127.0.0.1:53502
+1677138599553	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile4mUQc1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53502/devtools/browser/b2e98c72-5910-43ad-9912-194a1d0aa1cd
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+[Parent 18356, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+[Parent 18356, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1677139028572	geckodriver	INFO	Listening on 127.0.0.1:53817
+1677139031614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53818" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileg5evoh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677139032317	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677139032325	Marionette	INFO	Listening on port 53837
+Read port: 53837
+WebDriver BiDi listening on ws://127.0.0.1:53818
+1677139032641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileg5evoh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53818/devtools/browser/4286e6b1-c30b-40c6-abd0-742f48ea8ea6
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677139047110	Marionette	INFO	Stopped listening on port 53837
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1677139077777	geckodriver	INFO	Listening on 127.0.0.1:53951
+1677139080838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53952" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileUTxFf7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677139081453	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677139081463	Marionette	INFO	Listening on port 53970
+Read port: 53970
+WebDriver BiDi listening on ws://127.0.0.1:53952
+1677139081749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileUTxFf7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53952/devtools/browser/1fad6812-3781-49ca-9d93-0ef94be900d9
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+1677139134151	geckodriver	INFO	Listening on 127.0.0.1:54082
+1677139137205	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilejaTnxL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677139137789	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677139137801	Marionette	INFO	Listening on port 54091
+Read port: 54091
+WebDriver BiDi listening on ws://127.0.0.1:54083
+1677139138100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilejaTnxL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54083/devtools/browser/1a177c77-9ee8-451e-b21e-6817b97bd98b
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677139189468	geckodriver	INFO	Listening on 127.0.0.1:54199
+1677139192532	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54200" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilenr73uj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677139193147	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677139193156	Marionette	INFO	Listening on port 54209
+Read port: 54209
+WebDriver BiDi listening on ws://127.0.0.1:54200
+1677139193559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilenr73uj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54200/devtools/browser/509502ca-8d5c-40f8-84ab-31433e9b84e5
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677139227005	Marionette	INFO	Stopped listening on port 54209
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1677139285877	geckodriver	INFO	Listening on 127.0.0.1:54348
+1677139288926	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54349" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileHilnKC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677139289474	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677139289481	Marionette	INFO	Listening on port 54357
+Read port: 54357
+WebDriver BiDi listening on ws://127.0.0.1:54349
+1677139289762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileHilnKC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54349/devtools/browser/628f6b93-63f7-40d2-8139-025295fda0c0
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677139792314	geckodriver	INFO	Listening on 127.0.0.1:54607
+1677139795371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54608" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileaTf4do"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677139796081	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677139796089	Marionette	INFO	Listening on port 54638
+Read port: 54638
+WebDriver BiDi listening on ws://127.0.0.1:54608
+1677139796413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileaTf4do\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54608/devtools/browser/e1bf96bd-ee01-4c60-8b35-e82809eb92e5
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677139831109	geckodriver	INFO	Listening on 127.0.0.1:54756
+1677139834176	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54757" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile82vxZJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677139834797	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677139834809	Marionette	INFO	Listening on port 54766
+Read port: 54766
+WebDriver BiDi listening on ws://127.0.0.1:54757
+1677139835154	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile82vxZJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54757/devtools/browser/c300bba2-9d8d-4537-ab24-fdbe6bc3d69f
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677140282010	geckodriver	INFO	Listening on 127.0.0.1:55080
+1677140285066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55081" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilevTkuVw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677140285701	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677140285711	Marionette	INFO	Listening on port 55109
+Read port: 55109
+WebDriver BiDi listening on ws://127.0.0.1:55081
+1677140286059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilevTkuVw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55081/devtools/browser/7126e8b7-9db5-40e6-8def-304ffa1bb8f8
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677140355390	geckodriver	INFO	Listening on 127.0.0.1:55225
+1677140358441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55226" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileAtr68n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677140359116	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677140359128	Marionette	INFO	Listening on port 55234
+Read port: 55234
+WebDriver BiDi listening on ws://127.0.0.1:55226
+1677140359436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileAtr68n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55226/devtools/browser/3855def9-3751-4c55-b91e-bb62763a40f0
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677150689623	geckodriver	INFO	Listening on 127.0.0.1:57981
+1677150692709	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57982" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileyYStWT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677150693503	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677150693513	Marionette	INFO	Listening on port 58014
+Read port: 58014
+WebDriver BiDi listening on ws://127.0.0.1:57982
+1677150693817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileyYStWT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57982/devtools/browser/f401785d-b344-4b0a-ba9a-f45519c0a351
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677150726733	geckodriver	INFO	Listening on 127.0.0.1:58141
+1677150729765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58142" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileZjvvkG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677150730409	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677150730422	Marionette	INFO	Listening on port 58154
+Read port: 58154
+WebDriver BiDi listening on ws://127.0.0.1:58142
+1677150731128	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileZjvvkG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58142/devtools/browser/484ae1b2-7a3f-4912-b881-8fda4b433552
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+1677150803102	geckodriver	INFO	Listening on 127.0.0.1:58318
+1677150806131	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58319" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileXcm2eR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677150806837	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677150806849	Marionette	INFO	Listening on port 58327
+Read port: 58327
+WebDriver BiDi listening on ws://127.0.0.1:58319
+1677150807163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileXcm2eR\\search.json.mozlz4", (void 0)))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+DevTools listening on ws://127.0.0.1:58319/devtools/browser/5c276e44-5fec-4387-8670-3d6ec37851dd
+1677150810517	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677150832924	geckodriver	INFO	Listening on 127.0.0.1:58418
+1677150835984	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileomtN3r"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677150836578	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677150836588	Marionette	INFO	Listening on port 58428
+Read port: 58428
+WebDriver BiDi listening on ws://127.0.0.1:58419
+1677150837040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileomtN3r\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58419/devtools/browser/06abd122-f020-463a-96a1-ddf11ec34232
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+1677151010739	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677151051117	geckodriver	INFO	Listening on 127.0.0.1:58963
+1677151054167	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58964" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilehPhWRh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677151054906	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677151054915	Marionette	INFO	Listening on port 58985
+Read port: 58985
+WebDriver BiDi listening on ws://127.0.0.1:58964
+1677151055209	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilehPhWRh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58964/devtools/browser/62354a95-c2bb-472c-81a8-7f661188b12f
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677151270124	geckodriver	INFO	Listening on 127.0.0.1:59243
+1677151273151	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59244" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileKGzlod"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677151273810	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677151273819	Marionette	INFO	Listening on port 59253
+Read port: 59253
+WebDriver BiDi listening on ws://127.0.0.1:59244
+1677151274117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileKGzlod\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59244/devtools/browser/a6096640-4f3e-4e68-9410-a7bab9cbd23d
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677151305189	geckodriver	INFO	Listening on 127.0.0.1:59364
+1677151308250	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59365" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilerKLOOw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677151308874	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677151308884	Marionette	INFO	Listening on port 59385
+Read port: 59385
+WebDriver BiDi listening on ws://127.0.0.1:59365
+1677151309183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilerKLOOw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59365/devtools/browser/771e93fa-dd1f-4f43-82ba-47dd97d67677
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+1677151601272	geckodriver	INFO	Listening on 127.0.0.1:59707
+1677151604321	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59708" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofiletY4YwM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677151604985	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677151604995	Marionette	INFO	Listening on port 59726
+Read port: 59726
+WebDriver BiDi listening on ws://127.0.0.1:59708
+1677151605492	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofiletY4YwM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59708/devtools/browser/0256988c-0f78-46a1-8c51-068007e0df63
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677151660477	geckodriver	INFO	Listening on 127.0.0.1:59871
+1677151663541	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59872" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileJsnHQ3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677151664204	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677151664216	Marionette	INFO	Listening on port 59881
+Read port: 59881
+WebDriver BiDi listening on ws://127.0.0.1:59872
+1677151664567	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileJsnHQ3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59872/devtools/browser/def9061d-1df4-4beb-a04a-961a5f76f91d
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677152171621	Marionette	INFO	Stopped listening on port 59881
+Dynamically enable window occlusion 1
+1677153351072	geckodriver	INFO	Listening on 127.0.0.1:61178
+1677153354123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilenTmYEY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677153354885	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677153354897	Marionette	INFO	Listening on port 61208
+Read port: 61208
+WebDriver BiDi listening on ws://127.0.0.1:61179
+1677153355135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilenTmYEY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61179/devtools/browser/b722bec8-7dcc-4dd8-9d52-297f51e98ffd
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677153458400	geckodriver	INFO	Listening on 127.0.0.1:61356
+1677153461453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61357" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofiledw0YwC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677153462012	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677153462019	Marionette	INFO	Listening on port 61366
+Read port: 61366
+WebDriver BiDi listening on ws://127.0.0.1:61357
+1677153462210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofiledw0YwC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61357/devtools/browser/674af9b1-07f7-4839-811b-c37924ec2913
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+1677153525178	geckodriver	INFO	Listening on 127.0.0.1:61507
+1677153528230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61508" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile9AK1bO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677153528887	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677153528898	Marionette	INFO	Listening on port 61517
+Read port: 61517
+WebDriver BiDi listening on ws://127.0.0.1:61508
+1677153529106	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile9AK1bO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61508/devtools/browser/5d554e50-f4f2-4696-90d6-eea671d57136
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677153620109	geckodriver	INFO	Listening on 127.0.0.1:61675
+1677153623174	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61676" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileSoVPe2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677153623769	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677153623780	Marionette	INFO	Listening on port 61684
+Read port: 61684
+WebDriver BiDi listening on ws://127.0.0.1:61676
+1677153623991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileSoVPe2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61676/devtools/browser/34ab32df-be3d-4660-b8c4-973e34d24c53
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677153709143	geckodriver	INFO	Listening on 127.0.0.1:61827
+1677153712209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61828" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilerTvu4T"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677153712794	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677153712803	Marionette	INFO	Listening on port 61856
+Read port: 61856
+WebDriver BiDi listening on ws://127.0.0.1:61828
+1677153713014	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilerTvu4T\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61828/devtools/browser/a1b11bf3-be30-4b71-b981-204a18207839
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677153779411	Marionette	INFO	Stopped listening on port 61856
+Dynamically enable window occlusion 1
+1677153787428	geckodriver	INFO	Listening on 127.0.0.1:61990
+1677153790486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61991" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileGmYANZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677153791191	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677153791203	Marionette	INFO	Listening on port 62000
+Read port: 62000
+WebDriver BiDi listening on ws://127.0.0.1:61991
+1677153791415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileGmYANZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61991/devtools/browser/69b7de95-e0d9-4b0e-a13f-0ec8aeb691fb
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+1677153911043	geckodriver	INFO	Listening on 127.0.0.1:62184
+1677153914079	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilebVKskR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677153914696	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677153914706	Marionette	INFO	Listening on port 62193
+Read port: 62193
+WebDriver BiDi listening on ws://127.0.0.1:62185
+1677153914905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilebVKskR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62185/devtools/browser/a608cc6f-ddec-400d-8e89-a1d43a777829
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677154296206	geckodriver	INFO	Listening on 127.0.0.1:62603
+1677154299246	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62604" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileMSFP50"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677154299994	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677154300004	Marionette	INFO	Listening on port 62623
+Read port: 62623
+WebDriver BiDi listening on ws://127.0.0.1:62604
+1677154300253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileMSFP50\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62604/devtools/browser/69f2d553-85ae-4027-9149-5b6a72591370
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+1677154380105	geckodriver	INFO	Listening on 127.0.0.1:62768
+1677154383156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62769" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile6JSIVK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677154383785	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677154383795	Marionette	INFO	Listening on port 62788
+Read port: 62788
+WebDriver BiDi listening on ws://127.0.0.1:62769
+1677154384017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile6JSIVK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62769/devtools/browser/517a40ac-0eb9-4aab-b97f-8d4b31d9a8d5
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+1677154498333	geckodriver	INFO	Listening on 127.0.0.1:62952
+1677154501405	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62953" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileIL9B8S"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677154501996	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677154502005	Marionette	INFO	Listening on port 62961
+Read port: 62961
+WebDriver BiDi listening on ws://127.0.0.1:62953
+1677154502213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileIL9B8S\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62953/devtools/browser/c4d5ed57-2027-4b40-afd2-9a44e69503bd
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677154540925	Marionette	INFO	Stopped listening on port 62961
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1677154737990	geckodriver	INFO	Listening on 127.0.0.1:63316
+1677154741055	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63317" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilelxr7Vj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677154741665	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677154741675	Marionette	INFO	Listening on port 63346
+Read port: 63346
+WebDriver BiDi listening on ws://127.0.0.1:63317
+1677154741912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilelxr7Vj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63317/devtools/browser/cd0491bd-802a-4e0e-851e-3ab5a1a65b5e
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677154799168	geckodriver	INFO	Listening on 127.0.0.1:63493
+1677154802230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63494" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileasHEoU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677154802804	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677154802813	Marionette	INFO	Listening on port 63503
+Read port: 63503
+WebDriver BiDi listening on ws://127.0.0.1:63494
+1677154803004	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileasHEoU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63494/devtools/browser/792942f7-b147-42ea-b37d-a34ebdbd58f5
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677154870550	geckodriver	INFO	Listening on 127.0.0.1:63652
+1677154873614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileO0YrIq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677154874239	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677154874248	Marionette	INFO	Listening on port 63662
+Read port: 63662
+WebDriver BiDi listening on ws://127.0.0.1:63653
+1677154874437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileO0YrIq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63653/devtools/browser/a75868d2-8b4a-4e2b-b1fa-01a0931d4e87
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677155280137	geckodriver	INFO	Listening on 127.0.0.1:64119
+1677155283177	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64120" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile1CFTDB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677155283894	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677155283904	Marionette	INFO	Listening on port 64149
+Read port: 64149
+WebDriver BiDi listening on ws://127.0.0.1:64120
+1677155284122	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile1CFTDB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64120/devtools/browser/5932a379-99d0-49a3-aeee-bd479c2dd123
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677155430305	geckodriver	INFO	Listening on 127.0.0.1:64319
+1677155433344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64320" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile94LCVP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677155433949	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677155433959	Marionette	INFO	Listening on port 64328
+Read port: 64328
+WebDriver BiDi listening on ws://127.0.0.1:64320
+1677155434156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofile94LCVP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64320/devtools/browser/2a92e0ab-c12b-48f1-95c6-048bf810a783
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+1677155553985	geckodriver	INFO	Listening on 127.0.0.1:64508
+1677155557042	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64509" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileZj86Dw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677155557649	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677155557658	Marionette	INFO	Listening on port 64518
+Read port: 64518
+WebDriver BiDi listening on ws://127.0.0.1:64509
+1677155557846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileZj86Dw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64509/devtools/browser/2e31f251-06e7-4637-8c86-d0bc641307dd
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677155688841	geckodriver	INFO	Listening on 127.0.0.1:64686
+1677155691903	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64687" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilePW5aLl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677155692544	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677155692554	Marionette	INFO	Listening on port 64715
+Read port: 64715
+WebDriver BiDi listening on ws://127.0.0.1:64687
+1677155692798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilePW5aLl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64687/devtools/browser/2b5f0f0d-db72-43d6-bf59-36206b8670b1
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+1677155883656	geckodriver	INFO	Listening on 127.0.0.1:64933
+1677155886736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64934" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileblylON"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677155887399	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677155887408	Marionette	INFO	Listening on port 64944
+Read port: 64944
+WebDriver BiDi listening on ws://127.0.0.1:64934
+1677155887618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileblylON\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64934/devtools/browser/bfa2326b-2c95-43d5-ab39-1ce213e77aaa
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.carwale.com."
+1677156185625	geckodriver	INFO	Listening on 127.0.0.1:65231
+1677156188711	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65232" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilewG7Vj6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677156189358	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677156189370	Marionette	INFO	Listening on port 65261
+Read port: 
+1677156189371	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 65261
+WebDriver BiDi listening on ws://127.0.0.1:65232
+1677156189577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilewG7Vj6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65232/devtools/browser/a1bdfdbe-b9ea-4ce2-b1f2-a8973be732fd
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677156267458	geckodriver	INFO	Listening on 127.0.0.1:65396
+1677156270537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileSFdSjF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677156271228	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677156271238	Marionette	INFO	Listening on port 65406
+Read port: 65406
+WebDriver BiDi listening on ws://127.0.0.1:65397
+1677156271444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileSFdSjF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65397/devtools/browser/46874ba2-4118-45bd-aa36-356de1bf0339
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677157030041	geckodriver	INFO	Listening on 127.0.0.1:49787
+1677157033113	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49788" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileUWnG3g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677157033738	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677157033746	Marionette	INFO	Listening on port 49817
+Read port: 49817
+WebDriver BiDi listening on ws://127.0.0.1:49788
+1677157033976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileUWnG3g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49788/devtools/browser/1fec86c5-bc3a-4faa-b54b-6249e0d2d143
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677157145085	geckodriver	INFO	Listening on 127.0.0.1:49992
+1677157148147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileA8XJW5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677157148764	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677157148775	Marionette	INFO	Listening on port 50003
+Read port: 50003
+WebDriver BiDi listening on ws://127.0.0.1:49993
+1677157148987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileA8XJW5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49993/devtools/browser/81a5919c-a98f-4aae-ad72-d730a0dfa5d2
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677157743178	geckodriver	INFO	Listening on 127.0.0.1:50669
+1677157746238	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50670" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileF8Fr6u"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677157747147	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677157747159	Marionette	INFO	Listening on port 50701
+Read port: 50701
+WebDriver BiDi listening on ws://127.0.0.1:50670
+1677157747422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileF8Fr6u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50670/devtools/browser/29bee1b8-4b3e-4ee9-86cb-7782a690385b
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677157950597	geckodriver	INFO	Listening on 127.0.0.1:50919
+1677157953658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50920" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilepwiWlQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677157954299	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677157954330	Marionette	INFO	Listening on port 50929
+Read port: 50929
+WebDriver BiDi listening on ws://127.0.0.1:50920
+1677157954562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilepwiWlQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50920/devtools/browser/2bc3146e-431a-4136-9be2-8534608e7739
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677158103362	geckodriver	INFO	Listening on 127.0.0.1:51105
+1677158106463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51106" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileSp70gE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677158107107	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677158107118	Marionette	INFO	Listening on port 51137
+Read port: 51137
+WebDriver BiDi listening on ws://127.0.0.1:51106
+1677158107324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileSp70gE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51106/devtools/browser/bb1c9c30-48ff-4757-bc1f-6ffe5d2a1397
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677158564676	geckodriver	INFO	Listening on 127.0.0.1:51494
+1677158567744	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51495" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileKpweq3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677158568389	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677158568401	Marionette	INFO	Listening on port 51524
+Read port: 51524
+WebDriver BiDi listening on ws://127.0.0.1:51495
+1677158568609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileKpweq3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51495/devtools/browser/c6bed018-2f09-4529-82db-41ba4b23af3d
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677159043109	geckodriver	INFO	Listening on 127.0.0.1:51896
+1677159046199	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51897" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilet0INaS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677159046849	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677159046862	Marionette	INFO	Listening on port 51926
+Read port: 51926
+WebDriver BiDi listening on ws://127.0.0.1:51897
+1677159047097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilet0INaS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51897/devtools/browser/82f0c0a7-004a-4a46-be23-3107f58f84ca
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677168163285	geckodriver	INFO	Listening on 127.0.0.1:55127
+1677168166389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55128" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilesfUyhE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677168167244	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677168167256	Marionette	INFO	Listening on port 55156
+Read port: 55156
+WebDriver BiDi listening on ws://127.0.0.1:55128
+1677168167706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilesfUyhE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55128/devtools/browser/c970506c-23f7-4530-a7ea-99657f136fb0
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677168177381	Marionette	INFO	Stopped listening on port 55156
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1677168267388	geckodriver	INFO	Listening on 127.0.0.1:55329
+1677168270431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55330" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilegqe1vQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677168270987	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677168270996	Marionette	INFO	Listening on port 55339
+Read port: 55339
+WebDriver BiDi listening on ws://127.0.0.1:55330
+1677168271315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilegqe1vQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55330/devtools/browser/6142c1bc-083f-4a23-a8bd-735e97fbfe55
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677168356082	geckodriver	INFO	Listening on 127.0.0.1:55487
+1677168359146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55488" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileYjUQsy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677168359859	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677168359871	Marionette	INFO	Listening on port 55498
+Read port: 55498
+WebDriver BiDi listening on ws://127.0.0.1:55488
+1677168360203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileYjUQsy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55488/devtools/browser/5e5ce281-9a9f-46bf-9c9d-efcb92cf7894
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677168561527	geckodriver	INFO	Listening on 127.0.0.1:55749
+1677168564593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55750" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilepFUZ9a"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677168565271	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677168565280	Marionette	INFO	Listening on port 55779
+Read port: 55779
+WebDriver BiDi listening on ws://127.0.0.1:55750
+1677168565596	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilepFUZ9a\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55750/devtools/browser/59c8f7b4-d572-48a4-af9c-d3151f7e3d18
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677168909530	geckodriver	INFO	Listening on 127.0.0.1:56542
+1677168912600	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56543" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileG04QME"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677168912958	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677168912962	Marionette	INFO	Listening on port 56571
+Read port: 56571
+WebDriver BiDi listening on ws://127.0.0.1:56543
+1677168913095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileG04QME\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56543/devtools/browser/37bac353-523e-4ea0-a64b-31091cf9f3e1
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677169121073	geckodriver	INFO	Listening on 127.0.0.1:56777
+1677169124126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56778" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileWlbhr2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677169124390	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677169124394	Marionette	INFO	Listening on port 56786
+Read port: 56786
+WebDriver BiDi listening on ws://127.0.0.1:56778
+1677169124516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileWlbhr2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56778/devtools/browser/96304ccd-a9a3-4f0d-bc94-d709ea3ef5a7
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677169227941	geckodriver	INFO	Listening on 127.0.0.1:56963
+1677169231004	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56964" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilesogUyy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677169231671	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677169231683	Marionette	INFO	Listening on port 56993
+Read port: 56993
+WebDriver BiDi listening on ws://127.0.0.1:56964
+1677169231988	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofilesogUyy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56964/devtools/browser/ac02218a-2a1d-4878-8ab8-e3ff52359772
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677169296006	Marionette	INFO	Stopped listening on port 56993
+Dynamically enable window occlusion 1
+1677173217768	geckodriver	INFO	Listening on 127.0.0.1:64591
+1677173220856	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64592" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileCcJjEw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677173221304	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677173221308	Marionette	INFO	Listening on port 64615
+Read port: 64615
+WebDriver BiDi listening on ws://127.0.0.1:64592
+1677173221452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileCcJjEw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64592/devtools/browser/0e8bfd7f-cca2-4ea6-8aff-6ee1b37a077e
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677173244773	geckodriver	INFO	Listening on 127.0.0.1:64727
+1677173247820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64728" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileb3DT4d"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677173248191	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677173248195	Marionette	INFO	Listening on port 64738
+Read port: 64738
+WebDriver BiDi listening on ws://127.0.0.1:64728
+1677173248381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileb3DT4d\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64728/devtools/browser/913a4364-eca4-4402-9e71-04506e2ec303
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1677173494655	geckodriver	INFO	Listening on 127.0.0.1:64995
+1677173497695	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64996" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileKzIVM9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677173497984	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677173497988	Marionette	INFO	Listening on port 65006
+Read port: 65006
+WebDriver BiDi listening on ws://127.0.0.1:64996
+1677173498133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anirbaan\\AppData\\Local\\Temp\\rust_mozprofileKzIVM9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64996/devtools/browser/343fdfbf-9416-40db-84cd-b48410517e71
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
