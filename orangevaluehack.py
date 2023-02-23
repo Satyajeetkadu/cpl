@@ -127,6 +127,7 @@ matches = '2.8 Z'
 matching_models = find_matching_models(tlist, matches)
 print(matching_models)
 selecttrim=matching_models
+
 print(f"{matching_models}={selecttrim}")
 
 driver.implicitly_wait(2)
