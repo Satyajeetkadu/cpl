@@ -8,10 +8,6 @@ driver = webdriver.Firefox()
 
 driver.get('https://www.carwale.com/used/carvaluation/')
 
-
-
-
-
 #no need to find fuel and transmission but if u wanna go the extra mile then 
 #try driver.find_elements with span tag in filter --> gets petrol,diesel,cng,manual,automatic get manual&automatic out and in a new list convert to list match with the argument -->
 #now depending upon the location in the list change label tag in the fuel xpath |||| get transmission list match t with it and then chnage div and label tag accordingly
