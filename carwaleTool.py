@@ -66,39 +66,19 @@ def getPlc(city):
         return "/html/body/div/div[4]/div[2]/div[2]/div[2]/div/div/div[2]/div/div[10]/div/div/img"
     
 
-def selCar(cm, mm, fuel):
+def selCar(cm, mm, fuel, km):
     time.sleep(5)
     
     #FFS do not mess with the Try and except nesting in the name of cleaning
 
+    loc = 1
 
-
-    loc = 0
-    try: 
-        sl = driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/div/div/div[1]/div/div[3]/div[2]/div/div/input")  #main
-        sl.click()
-        time.sleep(3)
-        loc = 3
-    except Exception as e:
-
+    while loc < 4:
         try: 
-            print(e)
-            sl = driver.find_element(By.XPATH, "/html/body/div[1]/div[2]/div/div/div[1]/div/div[3]/div[2]/div/div/input")  #main
+            sl = driver.find_element(By.XPATH, f"/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[2]/div/div/input")  #main
             sl.click()
             time.sleep(3)
-            loc = 2
-        except Exception as e:
-            print(e)
-        try:
-            sl = driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/div/div/div[1]/div/div[3]/div[2]/div/div/input")  #main
-            sl.click()
-            time.sleep(3)
-            loc = 1
-        except Exception as e:
-            print(e)
-    finally:
 
-        try: 
             inp = driver.find_element(By.XPATH, f'/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/div[2]/div/div/input') #dialog box
             inp.click()
 
@@ -107,45 +87,8 @@ def selCar(cm, mm, fuel):
             time.sleep(5)
             mkc = driver.find_element(By.XPATH, f"/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/ul/li[2]/div/div/span/span/mark")
             mkc.click()
-        
-        except Exception as e:
+            time.sleep(5)
 
-            try: 
-                print(e)
-                inp = driver.find_element(By.XPATH, f'/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/div[2]/div/div/input') #dialog box
-                inp.click()
-
-                time.sleep(2)
-                inp.send_keys(f'{mm}')
-                time.sleep(5)
-                mkc = driver.find_element(By.XPATH, f"/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/ul/li[2]/div/div/span/span/mark")
-                mkc.click()
-                # krisa=driver.find_element(By.CLASS_NAME,"o-bqHweY o-bVSleT o-bwCunT o-bfyaNx o-bNxxEB o-jjpuv o-elzeOy")
-                # krisa.click()
-            except Exception as e:
-                print(e)
-
-
-            try:
-                inp = driver.find_element(By.XPATH, f'/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/div[2]/div/div/input') #dialog box
-                inp.click()
-
-                time.sleep(2)
-                inp.send_keys(f'{mm}')
-                time.sleep(5)
-                mkc = driver.find_element(By.XPATH, f"/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/ul/li[2]/div/div/span/span/mark")
-                mkc.click()
-            except Exception as e:
-                print(e)
-
-        time.sleep(5)
-
-
-
-#match mm with the lilist then select the version by changing the li tag value(x) in the xpath
-
-
-        try:
             ulst = driver.find_element(By.XPATH, f"/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/ul")
             lilst = ulst.find_elements(By.TAG_NAME, "li")
             print(lilst)         
@@ -163,66 +106,28 @@ def selCar(cm, mm, fuel):
                     lishit.click()
                 else:
                     print("NOT FOUND")
-                
-                
+            print("break")
+            kms = driver.find_element(By.XPATH, f"/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[5]/div/div/input")
+            kms.click()
+            time.sleep(2)
+            kms.send_keys(f"{km}")
+            finalbutton=driver.find_element(By.XPATH,f"/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[6]/button")
+            finalbutton.click()  
+           
         except Exception as e:
-            print(e)
+            print(f"Error: {e}")
+            loc = loc+1
 
-            try: 
-                ulst = driver.find_element(By.XPATH, f"/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/ul")
-                lilst = ulst.find_elements(By.TAG_NAME, "li")
-                
-                print(lilst)         
-                
-                x = 1
-                for i in lilst:
-                    txt = i.find_element(By.XPATH, f'/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/ul/li[{x}]/div/div/p')
-                    x = x+1
-                    print(x)
-                    a=txt.text
-                    print(txt.text)
-                    if a==fuel:
-                        print("founddddd")
-                        lishit=driver.find_element(By.XPATH,f"/html/body/div/div[3]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/ul/li[{x}]")
-                        lishit.click()
-                    else:
-                        print("NOT FOUND")
-
-            except Exception as e:
-                print(e)
-
-
-            try:
-                ulst = driver.find_element(By.XPATH, f"/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/ul")
-                lilst = ulst.find_elements(By.TAG_NAME, "li")
-                print(lilst)         
-                
-                x = 1
-                for i in lilst:
-                    txt = i.find_element(By.XPATH, f'/html/body/div[1]/div[{loc}]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/ul/li[{x}]/div/div/p')
-                    x = x+1
-                    print(x)
-                    a=txt.text
-                    print(txt.text)
-                    if a==fuel:
-                        print("founddddd")
-                        lishit=driver.find_element(By.XPATH,f"/html/body/div/div[3]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/ul/li[{x}]")
-                        lishit.click()
-
-                    else:
-                        print("NOT FOUND")
-                    
-            except Exception as e:
-                print(e)
+#match mm with the lilist then select the version by changing the li tag value(x) in the xpath
             
 def getvalue():
-    cardets=driver.find_element(By.XPATH,"/html/body/div[1]/div[3]/div/div/div[1]/div[1]/p")
+    cardets=driver.find_element(By.XPATH,f"/html/body/div[1]/div[3]/div/div/div[1]/div[1]/p")
     car=cardets.text
-    fair_price=driver.find_element(By.XPATH,"/html/body/div[1]/div[3]/div/div/div[1]/div[2]/div[2]/div[1]/p[2]")
+    fair_price=driver.find_element(By.XPATH,f"/html/body/div[1]/div[3]/div/div/div[1]/div[2]/div[2]/div[1]/p[2]")
     fprice=fair_price.text
-    best_price=driver.find_element(By.XPATH,"/html/body/div[1]/div[3]/div/div/div[1]/div[2]/div[2]/div[2]/p[2]")
+    best_price=driver.find_element(By.XPATH,f"/html/body/div[1]/div[3]/div/div/div[1]/div[2]/div[2]/div[2]/p[2]")
     bprice=best_price.text
-    extra=driver.find_element(By.XPATH,"/html/body/div[1]/div[3]/div/div/div[1]/div[1]/div")
+    extra=driver.find_element(By.XPATH,f"/html/body/div[1]/div[3]/div/div/div[1]/div[1]/div")
     print(f"Your Car Evaluation:\nCar:{car}\nPrice Range:{fprice}-{bprice}")
         
 
@@ -243,12 +148,7 @@ def getCwle(carMaker, makerModel, year, km, city, fuel):
     selCar(carMaker, makerModel, fuel)
 
     # Extract the estimated resale value
-    kms = driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/div/div/div[1]/div/div[5]/div/div/input")
-    kms.click()
-    time.sleep(2)
-    kms.send_keys(f"{km}")
-    finalbutton=driver.find_element(By.XPATH,"/html/body/div[1]/div[3]/div/div/div[1]/div/div[6]/button")
-    finalbutton.click()
+
     getvalue()
 
     # Close the browser
