@@ -1,5 +1,6 @@
 import requests
 import time
+import json
 def get_call(refid):
     time.sleep(5)
     url = f"https://sm-kyc-sandbox.scoreme.in/kyc/external/getkycrequestresponse?referenceId={refid}"
@@ -18,3 +19,13 @@ def get_call(refid):
     print(f"Model - {response.json()['data']['kycRcVehicleData']['makerDescription']}")
     print(f"Fuel Type - {response.json()['data']['kycRcVehicleData']['fuelType']}")
     print(f"Type of Vehicle - {response.json()['data']['kycRcVehicleData']['categoryDescription']}")
+
+
+def get_call_test(filename):
+
+    f = open(f"json/{filename}.json", "r")
+    fakerespo = json.loads(f.read())
+    returnRes=[fakerespo['data']['kycRcVehicleData']['manufacturedDate'], fakerespo['data']['kycRcVehicleData']['makerModel'], fakerespo['data']['kycRcVehicleData']['makerDescription'], fakerespo['data']['kycRcVehicleData']['fuelType'], fakerespo['data']['kycRcVehicleData']['categoryDescription']]
+
+    print(returnRes)
+    return returnRes
