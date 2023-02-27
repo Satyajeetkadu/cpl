@@ -8,34 +8,6 @@ driver = webdriver.Firefox()
 
 driver.get('https://www.carwale.com/used/carvaluation/')
 
-#no need to find fuel and transmission but if u wanna go the extra mile then 
-#try driver.find_elements with span tag in filter --> gets petrol,diesel,cng,manual,automatic get manual&automatic out and in a new list convert to list match with the argument -->
-#now depending upon the location in the list change label tag in the fuel xpath |||| get transmission list match t with it and then chnage div and label tag accordingly
-# using list because the filter chips are dynamic meaning they'll keep changing their place 
-
-
-# def selfl(fuel):
-#     try:
-#         if fuel == "petrol":
-#             fm = driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/label[2]/div/span[2]")
-#             if fuel == fm.text.lower():
-#                 fm.click()
-#         elif fuel == "diesel":
-#             driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/label[1]/div/span[2]")
-#         elif fuel == "cng":
-#             driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/label[3]/div/span[2]")
-
-        
-#     except Exception as e:
-#         print(e)
-
-# def seltrm(t):
-#     if t == "manual":
-#         driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/div/div[2]/label[1]/div/span[2]").click() #the div before label changed
-#     if t == "automatic":
-#         driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/div/div/div[1]/div/div[3]/div[1]/div[2]/div[2]/div[2]/div/div/div[2]/label[2]/div/span[2]").click() #the div before label changed
-
-
 def getPlc(city): 
 
     if city == "mumbai":
@@ -69,8 +41,6 @@ def getPlc(city):
 def selCar(cm, mm, fuel, km):
     time.sleep(5)
     
-    #FFS do not mess with the Try and except nesting in the name of cleaning
-
     loc = 1
 
     while loc < 4:
@@ -118,8 +88,7 @@ def selCar(cm, mm, fuel, km):
             print(f"Error: {e}")
             loc = loc+1
 
-#match mm with the lilist then select the version by changing the li tag value(x) in the xpath
-            
+           
 def getvalue():
     cardets=driver.find_element(By.XPATH,f"/html/body/div[1]/div[3]/div/div/div[1]/div[1]/p")
     car=cardets.text
@@ -147,12 +116,8 @@ def getCwle(carMaker, makerModel, year, km, city, fuel):
 
     selCar(carMaker, makerModel, fuel)
 
-    # Extract the estimated resale value
 
     getvalue()
-
-    # Close the browser
-    
 
     
 getCwle("", "wr-v", "2019", "35000", "mumbai", "Edge Edition Petrol [2018-2019]")
