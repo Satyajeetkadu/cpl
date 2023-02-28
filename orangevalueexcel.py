@@ -4,16 +4,15 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import re
-import pandas as pd
 
 # set up the webdriver
-ff_options=webdriver.FirefoxOptions()
-ff_options.add_argument('--headless')
-driver = webdriver.Firefox(options=ff_options)
+# ff_options=webdriver.FirefoxOptions()
+# ff_options.add_argument('--headless')
+driver = webdriver.Firefox()
 driver.get("https://orangebookvalue.com/")
 
-user_make="HONDA"
-user_model="CR-V 2.0L 2wd mt"
+user_make="Maruti Suzuki"
+user_model="Swift LXI"
 user_year = '2017'
 
 try:
@@ -59,7 +58,7 @@ try:
         if m.upper() in user_make:
             print(f'{m.upper()} in user_make-{user_make}')
             camelcase = lambda m: ''.join(w.capitalize() if i else w for i, w in enumerate(re.split('[_\- ]', m)))
-            selectmake=m
+        selectmake=m
 
     print(selectmake)
     driver.implicitly_wait(5)
@@ -76,7 +75,7 @@ try:
         if m.upper() in user_model:
             
             camelcase = lambda m: ''.join(w.capitalize() if i else w for i, w in enumerate(re.split('[_\- ]', m)))
-            selectmodel=m
+        selectmodel=m
             
             
     print(selectmodel)
@@ -115,7 +114,7 @@ try:
     select_trim.select_by_visible_text(selecttrim)
 
     kms=driver.find_element(By.NAME,'kms_driven')
-    kms.send_keys('55000')
+    kms.send_keys('50000')
 
     check_price=driver.find_element(By.ID,'check_price_used')
     check_price.click()
@@ -130,16 +129,6 @@ try:
     price=driver.find_element(By.CSS_SELECTOR,'.obv[role="result"] .price')
 
     print(price.text)
-    
-    df = pd.read_excel("C:/Users/pgk29/Documents/CPL/Car Compare.xlsx",sheet_name='Sheet1')
-    print(df)
-    row_index = 9
-    column_index = df.columns.get_loc('OrangeBookValue')  # Note: columns are zero-indexed too
-    print(column_index)
-    df.iloc[row_index,column_index] = price.text
-    print(df)
-    df.to_excel("C:/Users/pgk29/Documents/CPL/Car Compare.xlsx",sheet_name='Sheet1', index=False)
-    # writer.save()
 
     # driver.close()
 except Exception as e:
