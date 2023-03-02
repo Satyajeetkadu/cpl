@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import re
 import pandas as pd
 import json
-
+import difflib
 
 # set up the webdriver
 f = open('creta.json')
@@ -16,10 +16,10 @@ carData = json.load(f)
 
 # ff_options=webdriver.FirefoxOptions()
 # ff_options.add_argument('--headless')
-options = webdriver.ChromeOptions()
-prefs = {"profile.default_content_setting_values.notifications" : 2}
-options.add_experimental_option("prefs",prefs)
-driver = webdriver.Chrome(chrome_options=options)
+# options = webdriver.FirefoxOptions()
+# prefs = {"profile.default_content_setting_values.notifications" : 2}
+# options.add_experimental_option("prefs",prefs)
+driver = webdriver.Firefox()
 driver.get("https://orangebookvalue.com/")
 
 user_make=carData['data']['kycRcVehicleData']['makerDescription'].split(' ')[0].strip(' ')
@@ -37,7 +37,7 @@ splitmodel = user_model.split()
 # print(final_model)
 # new_trim = user_model.replace(final_model,"").strip()
 # print(new_trim)
-user_year = " " + carData['data']['kycRcVehicleData']['manufacturedDate'].split('/')[-1]
+user_year = carData['data']['kycRcVehicleData']['manufacturedDate'].split('/')[-1]
 print(user_year)
 print(f'user_make:{user_make} user_model:{user_model} user_year:{user_year}')
 
@@ -87,7 +87,7 @@ try:
             selectmake=m
 
 
-            print(selectmake)
+    print(selectmake)
     
     select_make.select_by_visible_text(selectmake)
 
@@ -116,23 +116,26 @@ try:
 
     select_model.select_by_visible_text(final_mod_list[0])
 
-    year=driver.find_element(By.NAME,'year')
+    yearselector=driver.find_element(By.NAME,'year')
     driver.implicitly_wait(50)
 
-    select_year=Select(year)
-    select_year.select_by_visible_text(" " + user_year)
+    select_year=Select(yearselector)
+    select_year.select_by_visible_text(user_year)
 
 
 
     trim=driver.find_element(By.NAME,"trim")
     select_trim=Select(trim)
     options_trim=trim.find_elements(By.TAG_NAME,'option')
+    driver.implicitly_wait(3)
     tlist=optionsDrop(options_trim)
     tlist = tlist[1:]
+    driver.implicitly_wait(3)
+
     print(tlist)
     driver.implicitly_wait(5)
 
-    trim_new = "SX " +user_model.lower().replace(final_mod_list[0].lower(),"").upper().replace("(","") + " BS6"
+    trim_new = user_model.lower().replace(final_mod_list[0].lower(),"").upper().replace("(","")
     print(f"trim_new",trim_new)
 
     trim_matches = []
@@ -144,16 +147,21 @@ try:
 
 
 
-        print(trim_matches)
+    print(trim_matches)
 
 
     if len(trim_matches)>0:
-        if trim_new in trim_matches:
-            print("New Trim",trim_new)
-        # print(f"Matches found : {','.join(trim_matches)}")
+        # if trim_new in trim_matches:
+        #     print("New Trim",trim_new)
+
+        # else:
+        # print("Trim new not in trim matches")
+        print(f"Matches found : {','.join(trim_matches)}")
     else:
         print("No matches found")
 
+    closest_trim =difflib.get_close_matches(trim_new,trim_matches)
+    print(f"Final closest trim is {closest_trim[0]}")
     # regex = r'(?<=' + re.escape(selectmodel) + r').+'
     # matches = re.findall(regex, user_model, re.IGNORECASE)
     # print(f'matches {matches}+{str(matches[0])}')
@@ -168,10 +176,11 @@ try:
     # print(f"{matching_models}={selecttrim}")
 
     driver.implicitly_wait(2)
-    for t in trim_matches:
-        if t == trim_new:
-            print(t)
-            select_trim.select_by_visible_text(t)
+
+
+    select_trim.select_by_visible_text(closest_trim[0])
+
+
     kms=driver.find_element(By.NAME,'kms_driven')
     kms.send_keys('55000')
 
@@ -179,11 +188,12 @@ try:
     check_price=driver.find_element(By.ID,'check_price_used')
     check_price.click()
 
-    wait =WebDriverWait(driver,10)
+    WebDriverWait(driver,100)
 
-    select_excellent=driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div[4]/div/div/div/div/div[2]/div[2]/div[3]/div/ul/li[5]')
+    select_excellent = wait.until(EC.presence_of_element_located((By.XPATH,"/html/body/div[1]/div[2]/div[4]/div/div/div/div/div[2]/div[2]/div[3]/div/ul/li[5]")))
+    # select_excellent=driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div[4]/div/div/div/div/div[2]/div[2]/div[3]/div/ul/li[5]')
     select_excellent.click()                     
-    wait =WebDriverWait(driver,5)
+    WebDriverWait(driver,5)
 
     price=driver.find_element(By.CSS_SELECTOR,'.obv[role="result"] .price')
 
@@ -191,7 +201,7 @@ try:
     
 
 
-    # driver.close()
+    driver.close()
 except Exception as e:
     print(e)
 
