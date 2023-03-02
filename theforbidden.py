@@ -5,16 +5,41 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import re
 import pandas as pd
+import json
+
 
 # set up the webdriver
-ff_options=webdriver.FirefoxOptions()
-ff_options.add_argument('--headless')
-driver = webdriver.Firefox(options=ff_options)
+f = open('creta.json')
+
+carData = json.load(f)
+
+
+# ff_options=webdriver.FirefoxOptions()
+# ff_options.add_argument('--headless')
+options = webdriver.ChromeOptions()
+prefs = {"profile.default_content_setting_values.notifications" : 2}
+options.add_experimental_option("prefs",prefs)
+driver = webdriver.Chrome(chrome_options=options)
 driver.get("https://orangebookvalue.com/")
 
-user_make="HONDA"
-user_model="CR-V 2.0L 2wd mt"
-user_year = '2017'
+user_make=carData['data']['kycRcVehicleData']['makerDescription'].split(' ')[0].strip(' ')
+user_model=carData['data']['kycRcVehicleData']['makerModel'].replace("MPI ","PETROL").replace("MT","")
+splitmodel = user_model.split()
+# if isinstance(splitmodel[0],str):
+#     final_model = splitmodel[0]
+# elif len(splitmodel>1) and isinstance(splitmodel[1],str):
+#     final_model = splitmodel[:2]
+# else:
+#     final_model = None
+# print(final_model)
+    
+# final_model = splitmodel[0] if len(splitmodel) == 2 else " ".join(splitmodel[:2])
+# print(final_model)
+# new_trim = user_model.replace(final_model,"").strip()
+# print(new_trim)
+user_year = " " + carData['data']['kycRcVehicleData']['manufacturedDate'].split('/')[-1]
+print(user_year)
+print(f'user_make:{user_make} user_model:{user_model} user_year:{user_year}')
 
 try:
     
@@ -61,34 +86,41 @@ try:
             camelcase = lambda m: ''.join(w.capitalize() if i else w for i, w in enumerate(re.split('[_\- ]', m)))
             selectmake=m
 
-    print(selectmake)
+
+            print(selectmake)
+    
+    select_make.select_by_visible_text(selectmake)
+
     driver.implicitly_wait(5)
 
-    select_make.select_by_visible_text(selectmake)
 
 
     model=driver.find_element(By.NAME,"model")
     select_model=Select(model)
     options_model=model.find_elements(By.TAG_NAME,'option')
     modlist=optionsDrop(options_model)
+    print(modlist)
+    final_mod_list = []
     for m in modlist:
         
-        if m.upper() in user_model:
-            
-            camelcase = lambda m: ''.join(w.capitalize() if i else w for i, w in enumerate(re.split('[_\- ]', m)))
-            selectmodel=m
-            
-            
-    print(selectmodel)
+        if m in user_model.title():
 
 
-    select_model.select_by_visible_text(selectmodel)
+            
+            # camelcase = lambda m: ''.join(w.capitalize() if i else w for i, w in enumerate(re.split('[_\- ]', m)))
+            final_mod_list.append(m)
+            print(final_mod_list[0])
+            
+
+
+
+    select_model.select_by_visible_text(final_mod_list[0])
 
     year=driver.find_element(By.NAME,'year')
     driver.implicitly_wait(50)
 
     select_year=Select(year)
-    select_year.select_by_visible_text(user_year)
+    select_year.select_by_visible_text(" " + user_year)
 
 
 
@@ -96,26 +128,53 @@ try:
     select_trim=Select(trim)
     options_trim=trim.find_elements(By.TAG_NAME,'option')
     tlist=optionsDrop(options_trim)
+    tlist = tlist[1:]
+    print(tlist)
     driver.implicitly_wait(5)
 
-    regex = r'(?<=' + re.escape(selectmodel) + r').+'
-    matches = re.findall(regex, user_model, re.IGNORECASE)
-    print(f'matches {matches}+{str(matches[0])}')
+    trim_new = "SX " +user_model.lower().replace(final_mod_list[0].lower(),"").upper().replace("(","") + " BS6"
+    print(f"trim_new",trim_new)
 
-    model_pattern = re.compile(str(matches[0]).strip())
-    for m in tlist:
-        print(f'before if :{m}')
-        matching_models = [model for model in tlist if model_pattern.search(model)]
-    print(matching_models)
-    selecttrim=str(matching_models[0])
+    trim_matches = []
+    trim_new_words = trim_new.split()
 
-    print(f"{matching_models}={selecttrim}")
+    for t in tlist:
+        if all(word in t for word in trim_new_words):
+            trim_matches.append(t)
+
+
+
+        print(trim_matches)
+
+
+    if len(trim_matches)>0:
+        if trim_new in trim_matches:
+            print("New Trim",trim_new)
+        # print(f"Matches found : {','.join(trim_matches)}")
+    else:
+        print("No matches found")
+
+    # regex = r'(?<=' + re.escape(selectmodel) + r').+'
+    # matches = re.findall(regex, user_model, re.IGNORECASE)
+    # print(f'matches {matches}+{str(matches[0])}')
+
+    # model_pattern = re.compile(str(matches[0]).strip())
+    # for m in tlist:
+    #     print(f'before if :{m}')
+    #     matching_models = [model for model in tlist if model_pattern.search(model)]
+    # print(matching_models)
+    # selecttrim=str(matching_models[0])
+
+    # print(f"{matching_models}={selecttrim}")
 
     driver.implicitly_wait(2)
-    select_trim.select_by_visible_text(selecttrim)
-
+    for t in trim_matches:
+        if t == trim_new:
+            print(t)
+            select_trim.select_by_visible_text(t)
     kms=driver.find_element(By.NAME,'kms_driven')
     kms.send_keys('55000')
+
 
     check_price=driver.find_element(By.ID,'check_price_used')
     check_price.click()
@@ -123,29 +182,18 @@ try:
     wait =WebDriverWait(driver,10)
 
     select_excellent=driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div[4]/div/div/div/div/div[2]/div[2]/div[3]/div/ul/li[5]')
-    select_excellent.click()
-
+    select_excellent.click()                     
     wait =WebDriverWait(driver,5)
 
     price=driver.find_element(By.CSS_SELECTOR,'.obv[role="result"] .price')
 
     print(price.text)
     
-    df = pd.read_excel("C:/Users/pgk29/Documents/CPL/Car Compare.xlsx",sheet_name='Sheet1')
-    print(df)
-    row_index = 9
-    column_index = df.columns.get_loc('OrangeBookValue')  # Note: columns are zero-indexed too
-    print(column_index)
-    df.iloc[row_index,column_index] = price.text
-    print(df)
-    df.to_excel("C:/Users/pgk29/Documents/CPL/Car Compare.xlsx",sheet_name='Sheet1', index=False)
-    # writer.save()
+
 
     # driver.close()
 except Exception as e:
     print(e)
-    
-finally:
-    driver.close()
+
 
 # code pushed by krisha joshi C039
