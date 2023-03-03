@@ -1,0 +1,90 @@
+{
+    "rc_regn_no": "MH02DW3509"
+}
+{
+    "data": {
+        "referenceId": "0e4476d2-d06c-479f-be4e-5e80b1d4cb31"
+    },
+    "responseMessage": "Successfully Submitted.",
+    "responseCode": "SRS016"
+}
+{
+    "data": {
+        "rcNumber": "MH02DW3509",
+        "documentType": "",
+        "issueDate": "23/02/2015",
+        "expiryDate": "NA",
+        "status": "ACTIVE",
+        "normsType": "Not Available",
+        "serial": "1",
+        "name": "MEETA SHAH",
+        "careOf": "NA",
+        "rcCategory": "LMV",
+        "presentAddress": "14 GOLDEN BEACH CHS LTD,RUIA ROAD GANDHI GRAM,UHU MUMBAI,MAHARASHTRA,400049",
+        "permanentAddress": "14 GOLDEN BEACH CHS LTD,RUIA ROAD GANDHI GRAM,UHU MUMBAI,MAHARASHTRA,400049",
+        "blackListStatus": "",
+        "taxEndDate": "",
+        "financier": "",
+        "financed": "False",
+        "statusAsOn": "18/02/2023",
+        "puccNumber": "MH00200110013008",
+        "puccUpto": "15/07/2022",
+        "mobileNumber": "9702555550",
+        "pincode": "",
+        "vehicleTaxUpto": "NA",
+        "rcStandardCap": "",
+        "vehicleNumber": "MH02DW3509",
+        "nonUseStatus": "",
+        "nonUseFrom": "",
+        "nonUseTo": "",
+        "isCommercial": "false",
+        "registeredAt": "MUMBAI (WEST)",
+        "kycRcPermitData": {
+            "issueDate": "",
+            "permitNumber": "",
+            "expiryDate": "",
+            "type": "",
+            "permitValidFrom": "",
+            "permitValidUpto": ""
+        },
+        "kycRcNationalPermitData": {
+            "issueBy": "",
+            "permitNumber": "",
+            "nationalPermitNumber": "",
+            "nationalPermitUpto": "",
+            "nationalPermitIssuedBy": "",
+            "expiryDate": ""
+        },
+        "kycRcVehicleData": {
+            "manufacturedDate": "02/2015",
+            "variant": "",
+            "category": "",
+            "categoryDescription": "Motor Car",
+            "chassisNumber": "MA1YT2HJUF6A10918",
+            "engineNumber": "HJE4M21103",
+            "makerDescription": "MAHINDRA & MAHINDRA LIMITED",
+            "makerModel": "MAHINDRA XUV 500 FWD W8",
+            "bodyType": "SALOON",
+            "fuelType": "DIESEL",
+            "color": "LAKEPRPL",
+            "cubicCapacity": "2179",
+            "grossWeight": "0",
+            "numberOfCylinders": "4",
+            "seatingCapacity": "7",
+            "sleeperCapacity": "",
+            "wheelbase": "",
+            "unladenWeight": "1800",
+            "standingCapacity": ""
+        },
+        "kycRcInsuranceData": {
+            "policyNumber": "",
+            "company": "",
+            "expiryDate": ""
+        },
+        "kycVehicleChallanDetails": [],
+        "kycVehicleBlackListDetails": []
+    },
+    "referenceId": "0e4476d2-d06c-479f-be4e-5e80b1d4cb31",
+    "responseMessage": "Successfully Completed.",
+    "responseCode": "SRC001"
+}

@@ -4,17 +4,18 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import re
-def orangebookvalue(carData):
-# set up the webdriver
+import pandas as pd
+
+def bulk_bulk_price(user_make,user_model):# set up the webdriver
     ff_options=webdriver.FirefoxOptions()
     ff_options.add_argument('--headless')
     driver = webdriver.Firefox(options=ff_options)
     driver.get("https://orangebookvalue.com/")
 
-    user_make=carData['data']['kycRcVehicleData']['makerDescription'].split(' ')[0].strip(' ')
-    user_model=carData['data']['kycRcVehicleData']['makerModel']
-    user_year = carData['data']['kycRcVehicleData']['manufacturedDate'].split('/')[-1]
-    print(f'user_make:{user_make} user_model:{user_model} user_year:{user_year}')
+    # user_make="HONDA"
+    # user_model="CR-V 2.0L 2wd mt"
+    user_year = '2017'
+
     try:
         
         
@@ -114,7 +115,7 @@ def orangebookvalue(carData):
         select_trim.select_by_visible_text(selecttrim)
 
         kms=driver.find_element(By.NAME,'kms_driven')
-        kms.send_keys('50000')
+        kms.send_keys('55000')
 
         check_price=driver.find_element(By.ID,'check_price_used')
         check_price.click()
@@ -129,6 +130,12 @@ def orangebookvalue(carData):
         price=driver.find_element(By.CSS_SELECTOR,'.obv[role="result"] .price')
 
         print(price.text)
+        
+        /
+        df.iloc[row_index,column_index] = price.text
+        print(df)
+        df.to_excel("C:/Users/pgk29/Documents/CPL/Car Compare.xlsx",sheet_name='Sheet1', index=False)
+        # writer.save()
 
         # driver.close()
     except Exception as e:
@@ -136,3 +143,8 @@ def orangebookvalue(carData):
         
     finally:
         driver.close()
+
+    # code pushed by krisha joshi C039
+df = pd.read_excel("C:/Users/pgk29/Documents/CPL/Car Compare.xlsx",sheet_name='Sheet1')
+print(df)
+    

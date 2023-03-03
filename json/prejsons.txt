@@ -1,0 +1,96 @@
+audi
+{
+    "rc_regn_no": "MH02DN3003"
+}
+{
+    "data": {
+        "referenceId": "0ba3e2e0-eeb1-4bdb-b3b2-14d124a6ab77"
+    },
+    "responseMessage": "Successfully Submitted.",
+    "responseCode": "SRS016"
+}
+
+bmw
+{
+    "rc_regn_no": "MH01DT7337"
+}
+{
+    "data": {
+        "referenceId": "70a5ade4-936b-43a1-aa39-0f211446a948"
+    },
+    "responseMessage": "Successfully Submitted.",
+    "responseCode": "SRS016"
+}
+
+compass
+{
+    "rc_regn_no": "MH09FQ8685"
+}
+{
+    "data": {
+        "referenceId": "99d9ce3e-dc0d-4b52-92c4-f33da0e55a02"
+    },
+    "responseMessage": "Successfully Submitted.",
+    "responseCode": "SRS016"
+}
+
+Creta
+{
+    "rc_regn_no": "MH02FN4021"
+}
+{
+    "data": {
+        "referenceId": "5244fe71-bcd5-4cea-825f-5241d55d4dc0"
+    },
+    "responseMessage": "Successfully Submitted.",
+    "responseCode": "SRS016"
+}
+
+dzire
+{
+    "rc_regn_no": "MH02BM1598",
+}
+
+{
+    "data": {
+        "referenceId": "0d9906b9-9269-46bf-ae99-c2fae4a5dac0"
+    },
+    "responseMessage": "Successfully Submitted.",
+    "responseCode": "SRS016"
+}
+
+i10
+{
+    "rc_regn_no": "MH43BE0706"
+}
+{
+    "data": {
+        "referenceId": "4ac59972-9551-49fe-a1c8-f06d7977b268"
+    },
+    "responseMessage": "Successfully Submitted.",
+    "responseCode": "SRS016"
+}
+
+innova
+{
+    "rc_regn_no": "MH04HX8400"
+}
+{
+    "data": {
+        "referenceId": "2919d56f-1ee9-4695-b5f1-f9c59c619af1"
+    },
+    "responseMessage": "Successfully Submitted.",
+    "responseCode": "SRS016"
+}
+
+merc
+{
+    "rc_regn_no": "MH02FN4021"
+}
+{
+    "data": {
+        "referenceId": "5244fe71-bcd5-4cea-825f-5241d55d4dc0"
+    },
+    "responseMessage": "Successfully Submitted.",
+    "responseCode": "SRS016"
+}
