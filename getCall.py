@@ -18,3 +18,4 @@ def get_call(refid):
     print(f"Model - {response.json()['data']['kycRcVehicleData']['makerDescription']}")
     print(f"Fuel Type - {response.json()['data']['kycRcVehicleData']['fuelType']}")
     print(f"Type of Vehicle - {response.json()['data']['kycRcVehicleData']['categoryDescription']}")
+    return response.json()
